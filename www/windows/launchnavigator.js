@@ -64,6 +64,12 @@ ln.availableApps = function(success, error){
     success(apps);
 };
 
+ln.setApiKey = function(success, error, apiKey){
+
+    
+
+}
+
 /**
  * Opens navigator app to navigate to given destination, specified by either place name or lat/lon.
  * If a start location is not also specified, current location will be used for the start.

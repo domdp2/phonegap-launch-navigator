@@ -275,6 +275,12 @@ export interface LaunchNavigator {
         errorCallback?: (error: string) => void
     ) => void;
 
+    setApiKey: (
+        apiKey: string,
+        successCallback: (success: any) => void,
+        errorCallback?: (error: string) => void
+    ) => void;
+
 
     /**
      * Launches navigator app
