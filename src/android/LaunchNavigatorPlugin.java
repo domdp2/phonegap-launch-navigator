@@ -151,7 +151,7 @@ public class LaunchNavigatorPlugin extends CordovaPlugin {
         this.launchNavigator.getLogger().setEnabled(enabled);
     }
 
-    private void setApiKey(String apiKey){
+    public void setApiKey(String apiKey){
         this.launchNavigator.setGoogleApiKey(apiKey);
     }
 
